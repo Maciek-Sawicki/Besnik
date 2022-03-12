@@ -21,4 +21,13 @@ const navSlide = () => {
     });
 };
 
-navSlide();
+const mql = window.matchMedia('(max-width: 950px)');
+
+function windowMatch(e) {
+    if (e.matches) {
+        navSlide();
+    }
+}
+
+mql.addEventListener('change', windowMatch);
+

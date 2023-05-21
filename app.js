@@ -21,7 +21,7 @@ const navSlide = () => {
     });
 };
 
-const mql = window.matchMedia('(max-width: 950px)');
+const mql = window.matchMedia('(max-width: 1050px)');
 
 
 
